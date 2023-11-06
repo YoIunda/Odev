@@ -1,0 +1,2 @@
+# Odev
+ Trendyol Uygulamasi
