@@ -9,7 +9,11 @@
 }
 .picture  {
     background-image: url("https://cdn.dsmcdn.com/seometa/production/banner/national/web-boutique-list-top-tr-TR-1699264524173-SAG_TEPEBANNERAksamBaslyor.jpg");
-       
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+
+        
 
 }
 .top-header{
@@ -105,4 +109,55 @@
     padding-top: 10px;
     justify-content: center;
 }
+.last-nav{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    list-style: none;
+    height: 30px;
+    margin-top: 10px;
+   
+}
+.last-nav-item a{
+    text-decoration: none;
+    color: black;
+}
+.last-nav-item:hover{
+    border-bottom: 1px solid;
+    color: orange;
+    border-width: 2px;
 
+}
+.last-nav-item a:hover{
+    color: orange;
+}
+.cirle-nav{
+    margin-top: 20px;
+    height: 120px;
+}
+.cirle-nav-module{
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+.modules{
+    display: flex;
+}
+.modules-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 115px;
+    text-decoration: none;
+    color:black ;
+}
+.modules-item img{
+    width: 70px;
+}
+.modules-item span{
+    margin-top: 10px;
+}
+.modules a:hover{
+    color: orange;
+    border: 1px solid;
+}
