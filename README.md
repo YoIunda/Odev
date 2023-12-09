@@ -1,2 +1,2 @@
-# Odev
+# Trendyol Frontend
  Trendyol Uygulamasi
